@@ -1,12 +1,12 @@
 import "./App.css";
-import "./assets/Valid Photo.png";
+import profile from "./assets/Valid Photo.png";
 
 function App() {
   return (
     <div className="App">
-      <img src={profile} alt="Ken" className="profile" />
+      
       <h1>👋 Welcome to My First React App</h1>
-
+      <img src={profile} alt="Ken" className="profile" />
       <h2>Hi! My name is Ken.</h2>
 
       <p>
